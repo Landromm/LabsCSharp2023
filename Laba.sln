@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laba_01", "Laba_01.csproj", "{1458C65C-B204-4552-9EFC-638836717956}"
+	ProjectSection(ProjectDependencies) = postProject
+		{965582D3-4FF4-49BF-9CAF-B8C96180F40E} = {965582D3-4FF4-49BF-9CAF-B8C96180F40E}
+		{FE8A6D48-D8AA-4BDC-8E1F-6DEDDBFF740D} = {FE8A6D48-D8AA-4BDC-8E1F-6DEDDBFF740D}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laba_02", "..\Laba_02\Laba_02.csproj", "{965582D3-4FF4-49BF-9CAF-B8C96180F40E}"
 EndProject
